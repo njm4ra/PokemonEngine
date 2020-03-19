@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<BorderPane fx:id="mainLayout" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PokemonEngine.GUI.BattleScreen">
+
+    <center>
+        <Group>
+               <AnchorPane>
+                     <ImageView fx:id="background" />
+   
+                     <ImageView fx:id="opponentSprite" layoutX="615.0" layoutY="165.0" />
+   
+                     <ImageView fx:id="mySprite" layoutX="183.0" layoutY="297.0" preserveRatio="true" scaleX="1.5" scaleY="1.5" scaleZ="1.5" />
+                  <VBox fx:id="myStatusBar" layoutX="594.0" layoutY="436.0">
+                        <HBox prefWidth="200.0">
+                           <children>
+                              <Label fx:id="myName" prefWidth="200.0"/>
+                              <Label fx:id="myLevel" alignment="CENTER_RIGHT" prefWidth="200.0"/>
+                           </children>
+                        </HBox>
+                        <ProgressBar fx:id="myHp" minHeight="-Infinity" prefHeight="10.0" prefWidth="200.0" progress="1.0">
+                           <opaqueInsets>
+                              <Insets bottom="15.0" top="20.0" />
+                           </opaqueInsets>
+                        </ProgressBar>
+                        <Label fx:id="myHealth" alignment="CENTER_RIGHT" />
+                  </VBox>
+                  <VBox fx:id="opStatusBar" prefWidth="200.0">
+                     <children>
+                        <HBox prefHeight="0.0" prefWidth="200.0">
+                           <children>
+                              <Label fx:id="opName" prefWidth="200.0"/>
+                              <Label fx:id="opLevel" alignment="CENTER_RIGHT" prefWidth="200.0"/>
+                           </children>
+                        </HBox>
+                        <ProgressBar fx:id="opHp" minHeight="-Infinity" prefHeight="10.0" prefWidth="200.0" progress="1.0" />
+                        <Label fx:id="opHealth" alignment="CENTER_RIGHT" />
+                     </children>
+                  </VBox>
+               </AnchorPane>
+        </Group>
+    </center>
+   <bottom>
+      <Group BorderPane.alignment="CENTER">
+         <children>
+            <HBox fx:id="battleOptions" alignment="CENTER" prefHeight="62.0" prefWidth="794.0" spacing="10.0">
+               <children>
+                 <HBox alignment="CENTER" prefHeight="102.0" prefWidth="381.0">
+                    <children>
+                       <Label text="What will your pokemon do?" />
+                    </children>
+                 </HBox>
+                 <TilePane alignment="CENTER" hgap="10.0" prefHeight="102.0" prefWidth="401.0">
+                    <children>
+                      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Fight" onAction="#handleFightButton" />
+                      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Pokemon" />
+                      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Bag" />
+                      <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Run Away" />
+                    </children>
+                 </TilePane>
+               </children>
+            </HBox>
+            <HBox fx:id="moveOptions" prefHeight="61.0" prefWidth="794.0" visible="false">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="102.0" prefWidth="381.0">
+                       <children>
+                           <Label fx:id="moveStats" />
+                       </children>
+                  </HBox>
+                  <TilePane alignment="CENTER" hgap="10.0" prefHeight="232.0" prefWidth="794.0">
+                     <children>
+                        <Button fx:id="move1" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                                onAction="#handleMoveButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" />
+                        <Button fx:id="move2" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                                onAction="#handleMoveButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" />
+                        <Button fx:id="move3" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                                onAction="#handleMoveButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" />
+                        <Button fx:id="move4" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
+                                onAction="#handleMoveButton" onMouseEntered="#mouseEnter" onMouseExited="#mouseExit" />
+                     </children>
+                  </TilePane>
+               </children>
+            </HBox>
+            <HBox fx:id="attackNarration" alignment="CENTER" prefHeight="61.0" prefWidth="794.0" visible="false">
+               <children>
+                   <Label fx:id="narration" />
+               </children>
+            </HBox>
+         </children>
+      </Group>
+   </bottom>
+</BorderPane>

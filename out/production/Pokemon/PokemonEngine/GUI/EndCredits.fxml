@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="background" prefHeight="550.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PokemonEngine.GUI.EndCredits">
+   <center>
+       <Group>
+          <Label fx:id="theEnd" alignment="CENTER" layoutX="283.0" layoutY="229.0" text="The End" textFill="WHITE">
+            <font>
+               <Font size="64.0" />
+            </font>
+          </Label>
+
+          <Label fx:id="credit" alignment="CENTER" contentDisplay="CENTER"
+                 prefHeight="550.0" prefWidth="794.0" layoutX="397.0" layoutY="275.0" textAlignment="CENTER" textFill="WHITE">
+           <font>
+              <Font size="28.0" />
+           </font>
+          </Label>
+       </Group>
+   </center>
+</BorderPane>
