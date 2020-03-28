@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PokemonEngine.GUI.Cities.Charlottesville">
+   <children>
+      <ScrollPane fx:id="scroll" hbarPolicy="NEVER" onKeyPressed="#handleKeyPress" onKeyReleased="#handleKeyRelease" prefHeight="550.0" prefWidth="794.0" vbarPolicy="NEVER">
+         <content>
+            <AnchorPane>
+               <children>
+                  <ImageView fx:id="background" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Backgrounds/theLawn.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="rotunda" fitHeight="330.0" fitWidth="351.0" layoutX="222.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Sprites/rotunda.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+      <ImageView fx:id="mySprite" fitHeight="150.0" fitWidth="200.0" layoutX="324.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true" scaleX="0.75" scaleY="0.75" />
+   </children>
+</AnchorPane>

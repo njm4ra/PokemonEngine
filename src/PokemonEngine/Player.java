@@ -1,13 +1,25 @@
 package PokemonEngine;
 
 import PokemonEngine.PokeObjects.Pokemon;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.KeyValue;
+import javafx.animation.Timeline;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.util.Duration;
 
 public class Player {
 
     public String name;
     public Storage storage;
     public Pokemon[] party;
-    public Pokemon currentPokemon;  //has problems
+
+    public Image overworldFront;
+    public Image frontWalk;
+
+    public Image overworldBack;
+    public Image backWalk;
 
     public Player(){
         this.party = new Pokemon[6];
@@ -37,7 +49,7 @@ public class Player {
     public void choosePokemon(Pokemon p){
         for(int i = 0; i < party.length; i++){
             if (p.equals(party[i])) {
-                currentPokemon = party[i];
+                //currentPokemon = party[i];
             }
         }
     }
@@ -77,6 +89,15 @@ public class Player {
             }
         }
     }
+
+    public void frontWalk(ImageView sprite){
+        sprite.setImage(this.frontWalk);
+    }
+
+    public void backWalk(ImageView sprite){
+        sprite.setImage(this.backWalk);
+    }
+
 
     public String getName(){
         return this.name;

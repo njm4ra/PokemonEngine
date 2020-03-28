@@ -5,11 +5,9 @@ public class City {
     public Route inbound;
     public Route outbound;
     public PokemonCenter pokemonCenter;
+    public Building[] buidings;
 
     public City(String name, Route in, Route out){
         this.name = name;
-        this.inbound = in;
-        this.outbound = out;
-        this.pokemonCenter = new PokemonCenter();
     }
 }
