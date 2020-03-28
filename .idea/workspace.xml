@@ -4,9 +4,14 @@
     <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="Module 'Pokemon'" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Pokemon:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e536e126-7c97-426a-b326-de711216238e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/PokemonEngine/GUI/Pokemedley.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokemonEngine/GUI/Pokemedley.wav" afterDir="false" />
+      <change beforePath="$USER_HOME$/PokemonEngine/out/production/Pokemon/META-INF/Pokemon.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +25,120 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PlayGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="161">
+              <caret line="84" column="53" lean-forward="true" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/EndCredits.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Bulbasaur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Charmander.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="521">
+              <caret line="52" column="91" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="52" selection-end-column="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Map/City.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/Cities/Charlottesville.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="91" column="35" lean-forward="true" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#968#969#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/Cities/Charlottesville.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/BattleScreen.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="315" selection-start-line="315" selection-end-line="315" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Map/Building.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,8 +153,8 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
         <option value="FxmlFile" />
       </list>
     </option>
@@ -52,13 +166,14 @@
       <find>this</find>
       <find>rival</find>
       <find>health</find>
+      <find>interpolate</find>
     </findStrings>
     <replaceStrings>
       <replace>opponentMove</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/PokemonEngine" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PokemonEngine" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -81,7 +196,6 @@
         <option value="$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Raichu.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Map/Route.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Map/Gym.java" />
-        <option value="$PROJECT_DIR$/src/PokemonEngine/Map/City.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Item.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Map/PokemonCenter.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Storage.java" />
@@ -95,17 +209,21 @@
         <option value="$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Charmander.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Bulbasaur.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Squirtle.java" />
-        <option value="$PROJECT_DIR$/src/PokemonEngine/Player.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Battle.java" />
-        <option value="$PROJECT_DIR$/src/PokemonEngine/PlayGame.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/EndCredits.fxml" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/EndCredits.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/StarterSelection.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/BattleScreen.fxml" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/Move.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Pokemon.java" />
-        <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/BattleScreen.java" />
         <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/StarterSelection.fxml" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/Map/City.java" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/Player.java" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/Cities/Charlottesville.fxml" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/Cities/Charlottesville.java" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/Map/Building.java" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/PlayGame.java" />
+        <option value="$PROJECT_DIR$/src/PokemonEngine/GUI/BattleScreen.java" />
       </list>
     </option>
   </component>
@@ -133,6 +251,50 @@
           <expand>
             <path>
               <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonEngine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="GUI" type="462c0819:PsiDirectoryNode" />
+              <item name="Cities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="Map" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pokemon" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PokemonEngine" type="462c0819:PsiDirectoryNode" />
+              <item name="PokeObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pokemon" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -145,17 +307,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exe" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Student\Dropbox\IdeaProjects\Pokemon\src\PokemonEngine\GUI\Backgrounds" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -222,11 +389,27 @@
       <workItem from="1584518038118" duration="1524000" />
       <workItem from="1584564381469" duration="606000" />
       <workItem from="1584587361448" duration="664000" />
+      <workItem from="1584640539940" duration="2809000" />
+      <workItem from="1584648288987" duration="3917000" />
+      <workItem from="1584670788475" duration="6841000" />
+      <workItem from="1584735697900" duration="628000" />
+      <workItem from="1584944222513" duration="768000" />
+      <workItem from="1584981032633" duration="7311000" />
+      <workItem from="1585007755670" duration="10706000" />
+      <workItem from="1585186400155" duration="3631000" />
+      <workItem from="1585194541260" duration="2981000" />
+      <workItem from="1585197783349" duration="85000" />
+      <workItem from="1585270130768" duration="184000" />
+      <workItem from="1585286915981" duration="909000" />
+      <workItem from="1585288903378" duration="403000" />
+      <workItem from="1585289484617" duration="616000" />
+      <workItem from="1585290271261" duration="2514000" />
+      <workItem from="1585342872018" duration="8866000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="323658000" />
+    <option name="totallyTimeSpent" value="376827000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,8 +422,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.16680162" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -249,7 +433,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41740674" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4582593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -272,8 +456,8 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.16680162" />
-      <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" visible="true" weight="0.16680162" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.2194332" />
+      <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.16680162" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -281,8 +465,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.73357016" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41740674" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3285968" />
@@ -292,13 +476,14 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3285968" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.32955465" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
@@ -306,13 +491,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/PokemonEngine" />
+    </ignored-roots>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/PokemonEngine/PlayGame.java</url>
-          <line>21</line>
-          <properties field="starterSelectionScene" class="PokemonEngine.PlayGame" />
+          <line>20</line>
+          <properties field="mapScreen" class="PokemonEngine.PlayGame" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -372,13 +562,6 @@
     <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/Backgrounds/Battle_std.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Map/City.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/3rd Year/Theory/FSA/DFA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2329">
@@ -419,30 +602,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Charmander.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="52" column="91" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="52" selection-end-column="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Squirtle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Bulbasaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -483,17 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1139">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
-          <folding>
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1604#1605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/EndCredits.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -501,16 +653,6 @@
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/EndCredits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="64" column="40" selection-start-line="64" selection-start-column="40" selection-end-line="64" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/StarterSelection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -560,18 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/BattleScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="146" column="13" selection-start-line="146" selection-start-column="13" selection-end-line="146" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#11230#11231#0" expanded="true" />
-            <element signature="e#11272#11273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/StarterSelection.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -580,10 +710,109 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="jar://C:/Java/javafx-sdk-11.0.2/lib/javafx.fxml.jar!/javafx/fxml/FXMLLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/Sprites/me_front.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="97" column="39" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Map/City.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/Cities/Charlottesville.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/Cities/Charlottesville.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="91" column="35" lean-forward="true" selection-start-line="91" selection-start-column="35" selection-end-line="91" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/Map/Building.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="62" lean-forward="true" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/EndCredits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="64" column="43" lean-forward="true" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PlayGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="161">
+          <caret line="84" column="53" lean-forward="true" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/GUI/BattleScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="315" selection-start-line="315" selection-end-line="315" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Charmander.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="52" column="91" lean-forward="true" selection-start-line="51" selection-start-column="8" selection-end-line="52" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PokemonEngine/PokeObjects/Bulbasaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="54" column="5" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -596,10 +825,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Pokemon:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -645,7 +876,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

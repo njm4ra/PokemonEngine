@@ -296,10 +296,28 @@ public class BattleScreen{
     }
 
     public void mouseEnter(MouseEvent mouse){
-        if(mouse.getSource().equals(move1)){
-            this.moveStats.setText("PP: " + PlayGame.getMe().currentPokemon().moveset[0].pp +
-                                   "\nType: " + PlayGame.getMe().currentPokemon().moveset[0].type.toString());
+
+        Move m1 = PlayGame.getMe().currentPokemon().moveset[0];
+        Move m2 = PlayGame.getMe().currentPokemon().moveset[1];
+        Move m3 = PlayGame.getMe().currentPokemon().moveset[2];
+        Move m4 = PlayGame.getMe().currentPokemon().moveset[3];
+
+        if(mouse.getSource().equals(move1) && m1 != null){
+            this.moveStats.setText("PP: " + m1.pp + "\nType: " + m1.type.toString());
+        }else
+
+        if(mouse.getSource().equals(move2) && m2 != null){
+            this.moveStats.setText("PP: " + m2.pp + "\nType: " + m2.type.toString());
+        }else
+
+        if(mouse.getSource().equals(move3) && m3 != null){
+            this.moveStats.setText("PP: " + m3.pp + "\nType: " + m3.type.toString());
+        }else
+
+        if(mouse.getSource().equals(move4) && m4 != null){
+            this.moveStats.setText("PP: " + m4.pp + "\nType: " + m4.type.toString());
         }
+
     }
 
     public void mouseExit(){
